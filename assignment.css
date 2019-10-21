@@ -1,0 +1,129 @@
+footer {
+  color: yellow;
+  background-color: #213643;
+}
+
+.home{
+  position: relative;
+  color: gray;
+  text-align: center;
+}
+
+.homeimage{
+  border: 2px solid #80aab7;
+  align-content: right;
+}
+.welcometext{
+
+}
+h1, h2, h3 {
+ font-family: "Arial", "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+body {
+ font-family: "Arial" ,Georgia, Cambria, "Times New Roman", serif;
+ background-color:	#f4f6f6;
+ margin : 0;
+ font-weight: 400;
+}
+
+header {
+  background: lightblue;
+}
+
+header ::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.logo-container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  width:  150px;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top : 23px;
+  position: relative;
+}
+
+input.button {
+	background-color: purple;
+	color: white;
+	font-family: "trebuchet ms", arial, sans-serif;
+	border: 1px solid black;
+}
+
+nav a{
+  color: #444;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #444;
+  
+  position: absolute;
+  top: 0;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+
+#products {
+   border-bottom: solid 3pt #213643;
+   color: #ed8030;
+}
+
+
+
+h1, h2 {
+  font-family: "Arial", Courier, monospace;
+  color: black;
+
+}
+
+  img {
+    display: block;
+    margin: 0 auto;
+}
+
+.laptop, .desktop, .phone, .tablet {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }

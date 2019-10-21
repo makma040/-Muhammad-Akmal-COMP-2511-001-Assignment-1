@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Muhammad Akmal">
+    <meta name="description" content="Contact Page">
+    <link rel="stylesheet" type="text/css" href="assignment.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-container">
+
+            <img src="images/logo.jpg" alt="Company Logo" class="logo" />
+
+            <nav>
+                <ul>
+                    <li><a href="Home-Page.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="Repairs.html">Device Repair</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="contact-form">
+            <article><h1>Contact Us</h1></article>
+
+        <p>Fill your information here to get in contact with us to get assistance for any issues you may be having</p>
+
+        <form>
+
+
+            <p>
+                <label> Name:
+                    <input type="text" name="name" size="25">
+                </label>
+
+                <br>
+                <br>
+
+                <label> Phone:
+                    <input type="tel" name="phone" size="25" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="403-111-1111"> (e.g., 403-111-1111)
+                </label>
+
+                <br>
+                <br>
+
+                <label> Email:
+                    <input type="email" name="email" placeholder="abc@xyz.com" size="25"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                </label>
+            </p>
+            </fieldset>
+
+            <hr>
+
+            <p>
+                <label>
+                    <input type="submit" name="submit" class="button">
+                </label>
+                <label>
+                    <input type="reset" name="Clear" class="button">
+                </label>
+            </p>
+        </form>
+        </form>
+    </div>
+
+    <footer>
+        &#9400; 2019 by New Day Electronics
+    </footer>
+</body>
+
+</html>
